@@ -1,0 +1,12 @@
+:root {
+    --dark: #0f0e0e;
+    --gray: #666666;
+    --light-gray: #999999;
+    --blue: #087fe7;
+    --dark-white: #f4f4f4;
+    --hover-color: #e4e4e4;
+    --normal-white: white;
+    --size-100: 100px;
+    --box-shadow-spec: 0px 0px 20px 10px #00000029;
+    --size-procent: 100%;
+}
