@@ -20,3 +20,162 @@ body {
     font-family: Inter;
     src: url(Inter.ttf);
 }
+
+/* Början på NAV/POPUP */
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-bottom: 2px solid var(--light-gray);
+    padding: 10px 0;
+    height: 30px;
+    position: fixed;
+    top: 0;
+    right: 10px;
+    bottom: 0;
+    left: 10px;
+}
+
+.arrow {
+    display: flex;
+}
+
+#barky {
+    width: var(--size-100);
+}
+
+.icon img {
+    width: 25px;
+}
+
+.icon {
+    display: flex;
+    border: 1px solid var(--dark);
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.fav {
+    display: flex;
+    border: 1px solid var(--dark);
+    border-radius: 5px;
+    padding: 2px;
+}
+
+.fav img {
+    width: 30px;
+}
+
+.below {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.box {
+    display: flex;
+    gap: 10px;
+    padding: 5px 10px;
+}
+
+span {
+    font-size: 12px;
+    color: var(--light-gray);
+}
+
+.submenu {
+    display: none;
+    flex-direction: column;
+    z-index: 100;
+    gap: 10px;
+    box-shadow: 0px 0px 1px 1px var(--hover-color);
+    background: var(--dark-white);
+    position: absolute;
+    padding: 5px;
+}
+
+.submenu .color {
+    padding: 5px 35px 5px 10px;
+}
+
+.text {
+    padding: 5px;
+    display: flex;
+    gap: 5px;
+}
+
+.text a {
+    text-decoration: none;
+    color: var(--dark);
+}
+
+.submenu a {
+    text-decoration: none;
+    color: var(--dark);
+}
+
+.submenu span a {
+    color: var(--light-gray);
+    text-decoration: underline;
+    padding: 0;
+}
+
+.submenu span a:hover {
+    color: var(--blue);
+    background-color: var(--dark-white);
+}
+
+#borderleft {
+    border-left: 2px solid var(--light-gray);
+    padding-left: 25px;
+}
+
+#textleft {
+    display: flex;
+    gap: 25px;
+    align-items: center;
+}
+
+#textright {
+    display: flex;
+    gap: 25px;
+}
+
+.popup:hover .submenu {
+    display: flex;
+    flex-direction: column;
+}
+
+.text:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.box:hover {
+    background: var(--hover-color);
+}
+
+.color:hover {
+    background: var(--hover-color);
+    border-radius: 5px;
+}
+
+#navclicky a {
+    color: var(--normal-white);
+    text-decoration: none;
+}
+
+#navclicky {
+    padding: 5px;
+    background: var(--dark);
+    color: var(--normal-white);
+    border-radius: 5px;
+}
+
+#hamburger {
+    width: 25px;
+    display: flex;
+    display: none;
+    margin-right: 5px;
+}
+
+/* POPUP/NAV css slut */
