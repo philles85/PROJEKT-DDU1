@@ -322,3 +322,79 @@ span {
 }
 
 /* Slut på hundlådor */
+
+/*Början på rad lådan och griden*/
+
+#teamsbox {
+    border-radius: 10px;
+    max-width: 600px;
+    background-color: rgb(237, 235, 235);
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.row img {
+    width: 20px;
+
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid var(--light-gray);
+    align-items: center;
+    padding: 10px;
+}
+
+.tio {
+    border-bottom: none;
+}
+
+#lastbox {
+    text-align: center;
+    border-top: 2px solid rgb(199, 199, 199);
+    margin-top: var(--size-100);
+    padding-top: var(--size-100);
+}
+
+#lastbox h1 {
+    margin: 0;
+}
+
+#solvebox {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    margin-top: 30px;
+}
+
+.unique {
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.yup {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+}
+
+.yup img {
+    object-fit: contain;
+}
+
+#middle {
+    border-right: 1px solid var(--light-gray);
+    border-left: 1px solid var(--light-gray);
+}
+
+.learn a {
+    display: flex;
+    flex-direction: column;
+    text-decoration: underline;
+    margin-top: 10px;
+    color: var(--dark);
+}
+
+/* Slut på båda boxarna */
