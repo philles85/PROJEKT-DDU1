@@ -523,3 +523,66 @@ footer {
 }
 
 /* END footer */
+
+/* START för media brytpunkten */
+
+@media (max-width: 1080px) {
+    .popup {
+        display: none;
+    }
+
+    #textright .text {
+        display: none;
+    }
+
+    #hamburger {
+        display: flex;
+    }
+
+    #textbild {
+        display: flex;
+        flex-direction: column-reverse;
+        width: 500px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #solvebox {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr;
+    }
+
+    #middle {
+        border: none;
+    }
+
+    #procent {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        gap: 50px;
+    }
+
+    .procenti {
+        border-left: none;
+    }
+
+    footer {
+        display: flex;
+        justify-content: start;
+    }
+
+    #footcontainer {
+        flex-direction: column;
+        gap: 0;
+    }
+
+    #gridbox {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto auto;
+        gap: 0;
+    }
+
+}
