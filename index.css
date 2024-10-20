@@ -75,7 +75,7 @@ nav {
 .box {
     display: flex;
     gap: 10px;
-    padding: 5px 10px;
+    padding: 5px 7px;
 }
 
 span {
@@ -179,7 +179,7 @@ span {
 }
 
 #hamburger:hover {
-    background-color: var(--dark-white);
+    background-color: var(--hover-color);
     border-radius: 5px;
 }
 
