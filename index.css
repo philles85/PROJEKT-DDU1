@@ -250,3 +250,75 @@ span {
     max-width: calc(var(--size-100) + 35px);
     height: 27px;
 }
+
+/* Hundlådor */
+#boxbarkie {
+    margin-top: 70px;
+}
+
+#boxbarkie h1 {
+    margin: 0;
+}
+
+.imgdog img {
+    margin-top: 30px;
+    max-width: var(--size-procent);
+    box-shadow: var(--box-shadow-spec);
+}
+
+.faceone {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.facetext {
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.facetext h3 {
+    margin: 0;
+}
+
+#boxkennel {
+    margin-top: var(--size-100);
+}
+
+
+.imgdog p {
+    font-size: 39px;
+    text-align: center;
+    color: var(--light-gray);
+}
+
+#boxwiki {
+    margin-top: var(--size-100);
+    border-bottom: 2px solid var(--light-gray);
+    padding-bottom: var(--size-100);
+}
+
+#planfree {
+    margin-top: var(--size-100);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+#planfree h1 {
+    margin: 0;
+}
+
+#freeclick {
+    background: var(--dark);
+    color: var(--normal-white);
+    padding: calc(var(--size-100) - 90px);
+    border-radius: 5px;
+    margin-top: 15px;
+    margin-bottom: 50px;
+}
+
+/* Slut på hundlådor */
