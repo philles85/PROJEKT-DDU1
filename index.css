@@ -6,6 +6,7 @@
     --dark-white: #f4f4f4;
     --hover-color: #e4e4e4;
     --normal-white: white;
+    --hover-border: 5px;
     --size-100: 100px;
     --box-shadow-spec: 0px 0px 20px 10px #00000029;
     --size-procent: 100%;
@@ -52,7 +53,7 @@ nav {
     display: flex;
     border: 1px solid var(--dark);
     padding: 5px;
-    border-radius: 5px;
+    border-radius: var(--hover-border);
 }
 
 .fav {
@@ -147,7 +148,7 @@ span {
 }
 
 .text:hover {
-    background-color: rgba(0, 0, 0, 0.1);
+    background: var(--hover-color);
 }
 
 .box:hover {
@@ -156,7 +157,7 @@ span {
 
 .color:hover {
     background: var(--hover-color);
-    border-radius: 5px;
+    border-radius: var(--hover-border);
 }
 
 #navclicky a {
@@ -168,19 +169,20 @@ span {
     padding: 5px;
     background: var(--dark);
     color: var(--normal-white);
-    border-radius: 5px;
+    border-radius: var(--hover-border);
 }
 
 #hamburger {
     width: 25px;
     display: flex;
     display: none;
-    margin-right: 5px;
+    padding: 5px;
+    justify-content: center;
 }
 
 #hamburger:hover {
     background-color: var(--hover-color);
-    border-radius: 5px;
+    border-radius: var(--hover-border);
 }
 
 /* POPUP/NAV css slut */
