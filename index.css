@@ -178,6 +178,11 @@ span {
     margin-right: 5px;
 }
 
+#hamburger:hover {
+    background-color: var(--dark-white);
+    border-radius: 5px;
+}
+
 /* POPUP/NAV css slut */
 
 /* Början för MAIN container */
