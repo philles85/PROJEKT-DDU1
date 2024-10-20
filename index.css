@@ -586,3 +586,40 @@ footer {
     }
 
 }
+
+@media (max-width: 600px) {
+
+    nav {
+        border: none;
+    }
+
+    #navclicky {
+        display: none;
+    }
+
+    #solvebox {
+        display: block;
+        padding-right: 40px;
+        padding-left: 40px;
+    }
+
+    #badges {
+        display: block;
+    }
+
+    #procent {
+        display: flex;
+        flex-direction: column;
+        gap: 40x;
+    }
+
+    #einstext {
+        margin: 0;
+    }
+
+    .same {
+        padding-left: var(--size-100);
+    }
+}
+
+/* CSS END */
