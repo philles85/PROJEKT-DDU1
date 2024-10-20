@@ -478,3 +478,48 @@ span {
 }
 
 /* END for main container */
+
+/* START för footern */
+footer {
+    border-top: 2px solid var(--light-gray);
+    padding-top: 70px;
+    margin: 0;
+    justify-content: center;
+    display: flex;
+}
+
+#footcontainer {
+    max-width: 1200px;
+    display: flex;
+    gap: 50px;
+}
+
+#gridbox {
+    display: flex;
+    gap: var(--size-100);
+}
+
+.eins img {
+    width: 150px;
+}
+
+#media {
+    display: grid;
+    grid-template-columns: repeat(5, 25px);
+    gap: 10px;
+    margin-top: 30px;
+}
+
+#media img {
+    width: 25px;
+}
+
+#einstext {
+    margin-top: 80px;
+}
+
+.last p {
+    color: var(--gray);
+}
+
+/* END footer */
