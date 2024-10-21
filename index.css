@@ -60,7 +60,7 @@ nav {
 .fav {
     display: flex;
     border: 1px solid var(--dark);
-    border-radius: 5px;
+    border-radius: var(--hover-border);
     padding: 2px;
 }
 
@@ -150,10 +150,12 @@ span {
 
 .text:hover {
     background: var(--hover-color);
+    border-radius: var(--hover-border);
 }
 
 .box:hover {
     background: var(--hover-color);
+    border-radius: var(--hover-border);
 }
 
 .color:hover {
@@ -551,6 +553,10 @@ footer {
         display: flex;
     }
 
+    #borderright {
+        display: none;
+    }
+
     #textbild {
         display: flex;
         flex-direction: column-reverse;
@@ -618,6 +624,10 @@ footer {
 
     #badges {
         display: block;
+    }
+
+    #badgetext {
+        padding: 30px;
     }
 
     #procent {
