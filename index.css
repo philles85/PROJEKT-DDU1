@@ -126,9 +126,9 @@ span {
     background-color: var(--dark-white);
 }
 
-#borderleft {
-    border-left: 2px solid var(--light-gray);
-    padding-left: 25px;
+#borderright {
+    height: auto;
+    border: 1px solid var(--light-gray);
 }
 
 #textleft {
