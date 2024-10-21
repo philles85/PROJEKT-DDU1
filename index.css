@@ -6,6 +6,7 @@
     --dark-white: #f4f4f4;
     --hover-color: #e4e4e4;
     --normal-white: white;
+    --submenu-pad: 5px 35px 5px 10px;
     --hover-border: 5px;
     --size-100: 100px;
     --box-shadow-spec: 0px 0px 20px 10px #00000029;
@@ -97,7 +98,7 @@ span {
 }
 
 .submenu .color {
-    padding: 5px 35px 5px 10px;
+    padding: var(--submenu-pad);
 }
 
 .text {
@@ -114,6 +115,10 @@ span {
 .submenu a {
     text-decoration: none;
     color: var(--dark);
+}
+
+#pad {
+    padding: var(--submenu-pad);
 }
 
 .submenu span a {
@@ -234,6 +239,7 @@ span {
     border-radius: 5px;
     align-self: start;
     font-size: 20px;
+    cursor: pointer;
 }
 
 #wholecontainer {
@@ -333,6 +339,7 @@ span {
     border-radius: 5px;
     margin-top: 15px;
     margin-bottom: 50px;
+    cursor: pointer;
 }
 
 /* Slut på hundlådor */
@@ -489,6 +496,7 @@ span {
     border-radius: 5px;
     padding: 5px;
     margin-top: 15px;
+    cursor: pointer;
 }
 
 /* END for main container */
@@ -506,6 +514,7 @@ footer {
     max-width: 1200px;
     display: flex;
     gap: 50px;
+    padding: 0 50px 0 50px;
 }
 
 #gridbox {
