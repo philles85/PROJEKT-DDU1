@@ -112,6 +112,11 @@ span {
     color: var(--dark);
 }
 
+#pad {
+    display: block;
+    max-width: 150px;
+}
+
 .submenu a {
     text-decoration: none;
     color: var(--dark);
@@ -273,7 +278,7 @@ span {
 }
 
 #boxbarkie h1 {
-    margin: 0;
+    margin-bottom: 10px;
 }
 
 .imgdog img {
@@ -295,6 +300,10 @@ span {
     gap: 10px;
 }
 
+.facetext span {
+    display: inline;
+}
+
 .facetext h3 {
     margin: 0;
 }
@@ -307,6 +316,10 @@ span {
     margin-top: var(--size-100);
 }
 
+#boxkennel h1 {
+    margin-bottom: 10px;
+}
+
 .imgdog p {
     font-size: 39px;
     text-align: center;
@@ -317,6 +330,16 @@ span {
     margin-top: var(--size-100);
     border-bottom: 2px solid var(--light-gray);
     padding-bottom: var(--size-100);
+}
+
+#boxwiki h1 {
+    margin-bottom: 10px;
+}
+
+.big {
+    display: block;
+    max-width: 45%;
+    font-size: 15px;
 }
 
 #planfree {
@@ -339,6 +362,12 @@ span {
     margin-top: 15px;
     margin-bottom: 50px;
     cursor: pointer;
+}
+
+.lone {
+    display: block;
+    max-width: 53%;
+    font-size: 15px;
 }
 
 /* Slut på hundlådor */
@@ -650,6 +679,28 @@ footer {
 
     .same {
         padding-left: var(--size-100);
+    }
+
+    .big {
+        text-align: center;
+        max-width: 100%;
+    }
+
+    #boxkennel h1 {
+        text-align: center;
+    }
+
+    #boxwiki h1 {
+        text-align: center;
+    }
+
+    #boxbarkie h1 {
+        text-align: center;
+    }
+
+    .lone {
+        max-width: 75%;
+        font-size: 15px;
     }
 }
 
