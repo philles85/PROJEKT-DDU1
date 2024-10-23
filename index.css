@@ -292,7 +292,7 @@ span {
     justify-content: center;
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 10px;
 }
 
 .facetext h3 {
@@ -300,13 +300,12 @@ span {
 }
 
 .faceimg img {
-    width: calc(var(--size-100) - 50px);
+    height: calc(var(--size-100) - 50px);
 }
 
 #boxkennel {
     margin-top: var(--size-100);
 }
-
 
 .imgdog p {
     font-size: 39px;
